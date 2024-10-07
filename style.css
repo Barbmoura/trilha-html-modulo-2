@@ -1,0 +1,126 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f7f7;
+    color: #333;
+    font-size: larger;
+}
+
+.menu {
+    background-color: #d3e0ea;
+    padding: 30px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #52616b;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: #91c7b1;
+}
+
+/* Header */
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+/* Seções */
+.content {
+    padding: 20px;
+    margin: 20px;
+    background-color: #e2eafc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content h1 {
+    color: #52616b;
+}
+
+.content p, .content table {
+    color: #333; /* Cor do texto principal */
+}
+
+/* Tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: 1px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    background-color: #fdfdfd;
+}
+
+th {
+    background-color: #91c7b1;
+    color: white;
+}
+
+/* Formulário */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #52616b;
+}
+
+form input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fdfdfd;
+}
+
+form button {
+    width: 48%;
+    background-color: #91c7b1;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+form button:hover {
+    background-color: #b0dedb;
+}
+
+/* Footer */
+.footer {
+    background-color: #d3e0ea;
+    padding: 10px;
+    text-align: center;
+    color: #52616b;
+    bottom: 0;
+    width: 100%;
+}
